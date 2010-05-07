@@ -6,7 +6,7 @@
 <!--[if IE]>
 <link href="iefix.css" rel="stylesheet" type="text/css" />
 <![endif]-->
-<title>LCOS: <%= @title %></title>
+<title><%= @title %></title>
 </head>
 <body>
 
@@ -69,5 +69,6 @@
 <%= yield %>
 </div>
 </div>
+<%= yield :sidebar %>
 </body>
 </html>
