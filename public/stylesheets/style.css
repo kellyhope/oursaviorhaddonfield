@@ -187,3 +187,7 @@ td {
 	text-align: center;
 	padding: 50px 0px;
 }
+
+#sidebar {
+	position: absolute; left: 875px; top: 65px;
+}
