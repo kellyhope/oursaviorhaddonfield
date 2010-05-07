@@ -1,0 +1,2 @@
+class MinistriesController < ApplicationController
+end
