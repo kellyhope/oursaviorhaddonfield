@@ -604,3 +604,272 @@ ActionController::RoutingError (No route matches "/dropdown.js" with {:method=>:
   /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing StaticController#index (for 127.0.0.1 at 2010-05-06 21:05:42) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-06 21:05:42) [GET]
+
+ActionController::RoutingError (No route matches "/dropdown.js" with {:method=>:get}):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-06 21:05:46) [GET]
+
+ActionController::RoutingError (No route matches "/ministries/christianeducation.html" with {:method=>:get}):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MinistriesController#christianeducation to html (for 127.0.0.1 at 2010-05-06 21:06:53) [GET]
+Rendering template within layouts/application
+Rendering ministries/christianeducation
+Completed in 39ms (View: 38, DB: 0) | 200 OK [http://localhost/ministries/christianeducation.html]
+
+
+Processing MinistriesController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:06:53) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticController#index to html (for 127.0.0.1 at 2010-05-06 21:06:57) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/index.html]
+
+
+Processing StaticController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:06:57) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MinistriesController#christianeducation to html (for 127.0.0.1 at 2010-05-06 21:07:01) [GET]
+Rendering template within layouts/application
+Rendering ministries/christianeducation
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/ministries/christianeducation.html]
+
+
+Processing MinistriesController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:07:01) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticController#index to html (for 127.0.0.1 at 2010-05-06 21:07:02) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/index.html]
+
+
+Processing StaticController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:07:02) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MinistriesController#christianeducation to html (for 127.0.0.1 at 2010-05-06 21:07:04) [GET]
+Rendering template within layouts/application
+Rendering ministries/christianeducation
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/ministries/christianeducation.html]
+
+
+Processing MinistriesController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:07:04) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticController#index to html (for 127.0.0.1 at 2010-05-06 21:07:05) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/index.html]
+
+
+Processing StaticController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:07:05) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-06 21:07:14) [GET]
+
+ActionController::RoutingError (No route matches "/messenger/April2010.pdf" with {:method=>:get}):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticController#index to html (for 127.0.0.1 at 2010-05-06 21:08:05) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/index.html]
+
+
+Processing StaticController#dropdown to js (for 127.0.0.1 at 2010-05-06 21:08:05) [GET]
+
+ActionController::UnknownAction (No action responded to dropdown. Actions: ):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-06 21:08:07) [GET]
+
+ActionController::RoutingError (No route matches "/messenger/April2010.pdf" with {:method=>:get}):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-06 21:09:16) [GET]
+
+ActionController::RoutingError (No route matches "/messenger/April2010.pdf" with {:method=>:get}):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-06 21:09:21) [GET]
+
+ActionController::RoutingError (No route matches "/messenger/April2010.pdf" with {:method=>:get}):
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/iHope/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
